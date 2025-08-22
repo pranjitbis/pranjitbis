@@ -44,25 +44,5 @@
 
 
 
-## ​ GitHub Stats
-
-<div align="center">
-
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=pranjitbis&show_icons=true&rank_icon=github&hide_border=true" alt="GitHub Stats"/>
-</a>
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pranjitbis&layout=compact&hide_border=true" alt="Top Languages"/>
-</a>
-<a href="https://github.com/DenverCoder1/github-readme-streak-stats">
-  <img height="165" src="https://streak-stats.demolab.com?user=pranjitbis&hide_border=true" alt="GitHub Streak"/>
-</a>
-
-</div>
-
----
-
-
-
 
 
