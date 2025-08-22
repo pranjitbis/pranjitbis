@@ -1,16 +1,28 @@
 <div align="center">
 
-# ​ Hi, I'm **YOUR_NAME**
+<!-- Typing SVG -->
+<p align="center">
+  <a href="https://github.com/pranjitbis">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&pause=800&color=36BCF7&center=true&vCenter=true&width=700&lines=Hi+there+👋;My+name+is+Pranjit;I+am+a+Full+Stack+Developer;" alt="Typing SVG" />
+  </a>
+</p>
+
 
 💻 Full-Stack Developer | Passionate about building scalable web applications
 
-[![Profile Views](https://komarev.com/ghpvc/?username=pranjitbis&style=flat-square)](https://github.com/pranjitbis)
-[![Followers](https://img.shields.io/github/followers/pranjitbis?style=flat-square)](https://github.com/pranjitbis?tab=followers)
-[![Stars](https://img.shields.io/github/stars/pranjitbis?affiliations=OWNER&style=flat-square)](https://github.com/pranjitbis?tab=repositories)
+<p>🔭 I’m currently working on Freelancing</p>
 
 </div>
 
----
+<div align="center">
+
+[![Gmail Badge](https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red)](mailto:pranjitbiswas230@gmail.com)
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pranjit-biswas-42066526b/)
+[![WhatsApp Badge](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/000000)
+
+</div>
+
+
 
 ## ​ Live Activity — Contribution Snake
 
@@ -22,30 +34,15 @@
 
 ## ​​ Tech Stack
 
-### Frontend
-<p>
-  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"/>
-  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"/>
-  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"/>
-  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"/>
-  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js"/>
-</p>
+<div align="center">
+  <img
+    src="https://skillicons.dev/icons?i=bootstrap,html,css,vscode,github,figma,tailwind,git,javascript,react,nextjs,nodejs,express"
+    alt="skills"
+    className="max-w-full"
+  />
+</div>
 
-### Backend
-<p>
-  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"/>
-  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express.js"/>
-  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js API"/>
-</p>
 
-### Databases
-<p>
-  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"/>
-  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"/>
-  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL"/>
-</p>
-
----
 
 ## ​ GitHub Stats
 
@@ -65,54 +62,7 @@
 
 ---
 
-## ​ Featured Projects
 
-- **Project A** — short description · [Live](#) · [Code](#)
-- **Project B** — short description · [Live](#) · [Code](#)
 
-*(Add as many as you'd like)*
 
----
 
-## ​ Connect
-
-[![Gmail Badge](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
-[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Twitter Badge](https://img.shields.io/badge/Twitter-000000?style=flat&logo=x&logoColor=white)](https://twitter.com/YOUR_TWITTER)
-
----
-
-### ​​ Setup Contribution Snake (One-Time)
-
-1. Ensure your repository is named **`pranjitbis`** (must match your GitHub username).
-2. Add this file as `.github/workflows/snake.yml`:
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"   # runs daily at midnight UTC
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: pranjitbis
-          outputs: |
-            dist/snake.svg
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: snake
-          path: dist/snake.svg
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
