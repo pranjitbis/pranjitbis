@@ -25,7 +25,7 @@
 
 
 
-## ​ Live Activity — Contribution Snake
+## <div al> Contribution Snake</div>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/pranjitbis/pranjitbis/output/snake.svg" alt="Contribution Snake" />
